@@ -10,6 +10,10 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image: linear-gradient(to left, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+}
+ul, li {
+  list-style-type: none;
 }
 
 #search-box {
@@ -18,3 +22,21 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.flag-img {
+  width: 20px; 
+  height: 15px;
+  margin-right: 10px;
+}
+
+.big-flag-img {
+  width: 70px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+}
+
